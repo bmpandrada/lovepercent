@@ -8,7 +8,7 @@ function myFunction() {
 
 
     if (loveScore > 70) {
-        demo.innerHTML = "your love score " + yourName + " from " + theirName + loveScore + " %" + " you love each other.";
+        demo.innerHTML = "your love score " + yourName + " from " + theirName + " " + loveScore + " %" + " you love each other.";
     } else {
         demo.innerHTML = theirName + " love score " + loveScore + "% Find out what your crush is passionate about.";
     }
